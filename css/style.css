@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-/* body  {
-    max-width: 576px;
-} */
-
 h1 {
     font-family:  'Nerko One', cursive;
     font-size: 45px;
@@ -19,6 +15,31 @@ h1 {
     padding: 20px;
 }
 
+main {
+    font-family: "Montserrat", serif;
+    padding: 0px 25px;
+}
+
+img {
+    width: 100%;
+}
+
+.hiddentext {
+    display: none;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #9c99b0;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+h2,
+.hiddentext {
+    color: #4e3969;
+    padding-bottom: 30px;
+}
 
 
 
@@ -33,6 +54,10 @@ h1 {
 
     h1 {
         text-align: left;
+    }
+
+    .hiddentext {
+        display: inline;
     }
 
 }
