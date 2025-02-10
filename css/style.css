@@ -26,7 +26,6 @@ main {
     background-color: #f6f5f3;
 }
 
-
 /* Subtitle */
 
 .hiddentext {
@@ -85,6 +84,14 @@ li {
     line-height: 30px;
 }
 
+/* Social */
+
+/* Banner */
+
+.banner {
+    display: none;
+}
+
 
 /* RESPONSIVE LAYOUT */
 
@@ -118,7 +125,14 @@ li {
         width: calc(100% / 3);
     }
 
+    .banner {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        }
 }
+
+
 
 @media screen and (min-width: 992px) {
 
@@ -136,6 +150,10 @@ li {
 
     .col li {
         width: 100%
+    }
+
+    .bannerimg {
+        width: 100%;
     }
 
 }
