@@ -40,7 +40,7 @@ main {
     padding-top: 30px;
 }
 
-h2,
+.intro h2,
 .hiddentext {
     color: #4e3969;
     padding-bottom: 30px;
@@ -92,6 +92,19 @@ li {
     display: none;
 }
 
+/* Recipe section */
+
+.recipe h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.recipe hr {
+    width: 100px;
+    border-color: #ff9614;
+}
 
 /* RESPONSIVE LAYOUT */
 
